@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - test-action
   pull_request:
     types:
       - opened
