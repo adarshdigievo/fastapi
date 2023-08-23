@@ -124,6 +124,7 @@ jobs:
     needs:
       - coverage-combine
     runs-on: ubuntu-latest
+    permissions: {}
     steps:
       - name: Dump GitHub context
         env:
