@@ -8,7 +8,9 @@ on:
     types:
       - opened
       - synchronize
-
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  
 jobs:
   lint:
     runs-on: ubuntu-latest
